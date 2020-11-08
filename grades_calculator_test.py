@@ -51,7 +51,7 @@ def describe_a_library_of_grade_calculation_functions():
         }
         # for this set of grades
         grades = ['A', 'B-', 'C+', 'B', 'B', 'F']
-        assert calculate_gpa(grades, weights) == 2.4
+        assert calculate_gpa(grades, weights) == 2.5
         # and for this other set of grades
         grades = ['D+', 'C', 'C', 'B+', 'A-', 'A-', 'A']
-        assert calculate_gpa(grades, weights) == 2.88
+        assert calculate_gpa(grades, weights) == 2.86
